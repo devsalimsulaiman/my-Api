@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "General Hospital",
+        "url": "/general-hospital",
+        "avatar": "../assets/logo/general-hospital.jpg"
+    },
+    {
+        "id": 2,
+        "title": "IBB Hospital",
+        "url": "/ibb-hospital",
+        "avatar": "../assets/logo/ibb-hospital.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Peace Specialist",
+        "url": "/peace-specialist",
+        "avatar": "../assets/logo/peace-specialist.jpg"
+    }
+]

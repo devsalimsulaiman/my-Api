@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "title": "Al Maun",
+        "url": "/al-maun",
+        "avatar": "../assets/logo/al-maun.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Bilkebab",
+        "url": "/bilkebab",
+        "avatar": "../assets/logo/bilkebab.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Cakes n More",
+        "url": "/cakes-n-more",
+        "avatar": "../assets/logo/cakes-n-more.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Exceeding Grace",
+        "url": "/exceeding-grace",
+        "avatar": "../assets/logo/exceeding-grace.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Fruits Planet",
+        "url": "/fruits-planet",
+        "avatar": "../assets/logo/fruits-planet.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Hs Spot",
+        "url": "/hs-spot",
+        "avatar": "../assets/logo/hs-spot.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Iya Femi",
+        "url": "/iya-femi",
+        "avatar": "../assets/logo/iya-femi.jpg"
+    },
+    {
+        "id": 8,
+        "title": "J3 Eatery",
+        "url": "/j3-eatery",
+        "avatar": "../assets/logo/j3-eatery.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Jay Fast Food",
+        "url": "/jay-fast-food",
+        "avatar": "../assets/logo/jay-fast-food.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Josephine Finest Chef",
+        "url": "/josephine-finest-chef",
+        "avatar": "../assets/logo/josephine-finest-chef.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Landmark Bakery",
+        "url": "/landmark-bakery",
+        "avatar": "../assets/logo/landmark-bakery.jpg"
+    },
+    {
+        "id": 12,
+        "title": "M7 Creamery",
+        "url": "/m7-creamery",
+        "avatar": "../assets/logo/m7-creamery.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Minglescafe",
+        "url": "/minglescafe",
+        "avatar": "../assets/logo/minglescafe.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Mr Biggs",
+        "url": "/mr-biggs",
+        "avatar": "../assets/logo/mr-biggs.jpg"
+    },
+    {
+        "id": 15,
+        "title": "Ostrich Bakery",
+        "url": "/ostrich-bakery",
+        "avatar": "../assets/logo/ostrich-bakery.jpg"
+    },
+    {
+        "id": 16,
+        "title": "Pizza Kings",
+        "url": "/pizza-kings",
+        "avatar": "../assets/logo/pizza-kings.jpg"
+    },
+    {
+        "id": 17,
+        "title": "Rasheedat Restaurant",
+        "url": "/rasheedat-restaurant",
+        "avatar": "../assets/logo/rasheedat-restaurant.jpg"
+    },
+    {
+        "id": 18,
+        "title": "Rk Shawarma",
+        "url": "/rk-shawarma",
+        "avatar": "../assets/logo/rk-shawarma.jpg"
+    },
+    {
+        "id": 19,
+        "title": "Safara Foods",
+        "url": "/safara-foods",
+        "avatar": "../assets/logo/safara-foods.jpg"
+    },
+    {
+        "id": 20,
+        "title": "Soup And Stew",
+        "url": "/soup-and-stew",
+        "avatar": "../assets/logo/soup-and-stew.jpg"
+    },
+    {
+        "id": 21,
+        "title": "Triple Treat Restaurant",
+        "url": "/triple-treat-restaurant",
+        "avatar": "../assets/logo/triple-treat-restaurant.jpg"
+    },
+    {
+        "id": 22,
+        "title": "Yahuza Suya Spot",
+        "url": "/yahuza-suya-spot",
+        "avatar": "../assets/logo/yahuza-suya-spot.jpg"
+    }
+]

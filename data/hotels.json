@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Akana Hotels",
+        "url": "/akana-hotels",
+        "avatar": "../assets/logo/akana-hotels.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Brighter Suits",
+        "url": "/brighter-suits",
+        "avatar": "../assets/logo/brighter-suits.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Dogon Koli Hotels",
+        "url": "/dogon-koli-hotels",
+        "avatar": "../assets/logo/dogon-koli-hotels.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Doko Hotels",
+        "url": "/doko-hotels",
+        "avatar": "../assets/logo/doko-hotels.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Golden Palace Guest Inn",
+        "url": "/golden-palace",
+        "avatar": "../assets/logo/golden-palace.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Gurara Suites & Lodge",
+        "url": "/gurara-suites-and-lodge",
+        "avatar": "../assets/logo/gurara-suites-and-lodge.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Hydro Hotel",
+        "url": "/hydro-hotel",
+        "avatar": "../assets/logo/hydro-hotel.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Rivchanga Hotel",
+        "url": "/rivchanga-hotel",
+        "avatar": "../assets/logo/rivchanga-hotel.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Saftec Hotel",
+        "url": "/saftec-hotel",
+        "avatar": "../assets/logo/Saftec-hotel.jpg"
+    },
+    {
+        "id": 10,
+        "title": "White Hills",
+        "url": "/white-hills",
+        "avatar": "../assets/logo/white-hills.jpg"
+    }
+]

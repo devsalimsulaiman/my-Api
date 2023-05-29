@@ -1,21 +1,36 @@
 const http = require('http');
-const { getProducts, getProduct, createProduct, updateProduct, deleteProduct } = require('./controllers/productController')
+const { getBanks, getCenters, getHotels, getPharmacies, getProfessions, getFood, getHospitals, getSchools, getSecurities, getShopping } = require('./controllers/productController');
+
+
 
 const server = http.createServer((req, res) => {
-    if(req.url === '/api/products' && req.method === 'GET') {
-        getProducts(req, res)
-    } else if(req.url.match(/\/api\/products\/([0-9]+)/) && req.method === 'GET') {
-        const id = req.url.split('/')[3] //takes string and split into array using / delimeter
-        getProduct(req, res, id)
-    } else if(req.url === '/api/products' && req.method === 'POST') {
-        createProduct(req, res)
-    }else if(req.url.match(/\/api\/products\/([0-9]+)/) && req.method === 'PUT') {
-        const id = req.url.split('/')[3] //takes string and split into array using / delimeter
-        updateProduct(req, res, id)
+    if(req.url === '/api/banks' && req.method === 'GET') {
+        getBanks(req, res)
+    } else if(req.url === '/api/centers' && req.method === 'GET') {
+        getCenters(req, res)
     }
-    else if(req.url.match(/\/api\/products\/([0-9]+)/) && req.method === 'DELETE') {
-        const id = req.url.split('/')[3] //takes string and split into array using / delimeter
-        deleteProduct(req, res, id)
+    else if(req.url === '/api/hospitals' && req.method === 'GET') {
+        getHospitals(req, res)
+    }
+    else if(req.url === '/api/hotels' && req.method === 'GET') {
+        getHotels(req, res)
+    }else if(req.url === '/api/pharmacies' && req.method === 'GET') {
+        getPharmacies(req, res)
+    }
+    else if(req.url === '/api/professions' && req.method === 'GET') {
+        getProfessions(req, res)
+    }
+    else if(req.url === '/api/food' && req.method === 'GET') {
+        getFood(req, res)
+    }
+    else if(req.url === '/api/schools' && req.method === 'GET') {
+        getSchools(req, res)
+    }
+    else if(req.url === '/api/securities' && req.method === 'GET') {
+        getSecurities(req, res)
+    }
+    else if(req.url === '/api/shopping' && req.method === 'GET') {
+        getShopping(req, res)
     }
     else {
         res.writeHead(404, {'Content-Type': 'application/json'})

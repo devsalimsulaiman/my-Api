@@ -1,123 +1,150 @@
-const ProductModel = require('../models/productModel')
-const { getPostData } = require('../utils')
+const ProductModel = require('../models/productModel');
 
 
-// @desc  Gets All Products
-// @route GET api/products
-async function getProducts(req, res) {
+// @desc  Gets Banks
+// @route GET api/banks
+async function getBanks(req, res) {
     try {
-        const products = await ProductModel.findAll() // it is a promise
+        const banks = await ProductModel.getBanks() 
 
         res.writeHead(200, {'Content-Type': 'application/json'})
-        res.end(JSON.stringify(products))
+        res.end(JSON.stringify(banks))
     }catch(error) {
         console.log(error)
     }
 }
 
-
-// @desc  Gets single Products
-// @route GET api/products/:id
-async function getProduct(req, res, id) {
+// @desc  Gets hospitals
+// @route GET api/hospitals
+async function getHospitals(req, res) {
     try {
-        const product = await ProductModel.findById(id) // it is a promise
+        const hospitals = await ProductModel.getHospitals() 
 
-        if(!product) {
-            res.writeHead(404, {'Content-Type': 'application/json'})
-            res.end(JSON.stringify({messege: 'Product Not Found'}))
-        }else {
-            res.writeHead(200, {'Content-Type': 'application/json'})
-            res.end(JSON.stringify(product))
-        }
+        res.writeHead(200, {'Content-Type': 'application/json'})
+        res.end(JSON.stringify(hospitals))
     }catch(error) {
         console.log(error)
     }
 }
 
-// @desc  Creates a Product
-// @route POST api/products
-async function createProduct(req, res) {
+// @desc  Gets hotels
+// @route GET api/hotels
+async function getHotels(req, res) {
     try {
-        const body = await getPostData(req)
+        const hotels = await ProductModel.getHotels() 
 
-        const { title, description, price } = JSON.parse(body)
-
-        const product = {
-            title,
-            description,
-            price
-        }
-
-        const newProduct = await ProductModel.create(product)
-
-        res.writeHead(201, { 'Content-Type': 'application/json' }) // 201 means created
-        return res.end(JSON.stringify(newProduct))
-
-
+        res.writeHead(200, {'Content-Type': 'application/json'})
+        res.end(JSON.stringify(hotels))
     }catch(error) {
         console.log(error)
     }
 }
 
-// @desc  Update a Product
-// @route PUT api/products/:id
-async function updateProduct(req, res, id) {
+// @desc  Gets pharmacies
+// @route GET api/pharmacies
+async function getPharmacies(req, res) {
     try {
-        const product = await ProductModel.findById(id)
+        const pharmacies = await ProductModel.getPharmacies() 
 
-        if(!product) {
-            res.writeHead(404, {'Content-Type': 'application/json'})
-            res.end(JSON.stringify({messege: 'Product Not Found'}))
-        }else {
-            const body = await getPostData(req)
-
-            const { title, description, price } = JSON.parse(body)
-
-        const productData = {
-            title: title || product.title,
-            description: description || product.description,
-            price: price || product.price
-        }
-
-        const updateProduct = await ProductModel.update(id, productData)
-
-        res.writeHead(200, { 'Content-Type': 'application/json' }) // 201 means created
-        return res.end(JSON.stringify(updateProduct))
-
-        }
-
-        
-
+        res.writeHead(200, {'Content-Type': 'application/json'})
+        res.end(JSON.stringify(pharmacies))
     }catch(error) {
         console.log(error)
     }
 }
 
-// @desc  deletes single Products
-// @route DELETE api/products/:id
-async function deleteProduct(req, res, id) {
+// @desc  Gets professions
+// @route GET api/professions
+async function getProfessions(req, res) {
     try {
-        const product = await ProductModel.findById(id) // it is a promise
+        const professions = await ProductModel.getProfessions() 
 
-        if(!product) {
-            res.writeHead(404, {'Content-Type': 'application/json'})
-            res.end(JSON.stringify({messege: 'Product Not Found'}))
-        }else {
-            await ProductModel.remove(id)
-            res.writeHead(200, {'Content-Type': 'application/json'})
-            res.end(JSON.stringify({message: `Product with the id: ${id} has been removed`}))
-        }
+        res.writeHead(200, {'Content-Type': 'application/json'})
+        res.end(JSON.stringify(professions))
     }catch(error) {
         console.log(error)
     }
 }
+
+// @desc  Gets restaurants
+// @route GET api/restaurants
+async function getFood(req, res) {
+    try {
+        const food = await ProductModel.getFood() 
+
+        res.writeHead(200, {'Content-Type': 'application/json'})
+        res.end(JSON.stringify(food))
+    }catch(error) {
+        console.log(error)
+    }
+}
+
+// @desc  Gets schools
+// @route GET api/schools
+async function getSchools(req, res) {
+    try {
+        const schools = await ProductModel.getSchools() 
+
+        res.writeHead(200, {'Content-Type': 'application/json'})
+        res.end(JSON.stringify(schools))
+    }catch(error) {
+        console.log(error)
+    }
+}
+
+// @desc  Gets security
+// @route GET api/security
+async function getSecurities(req, res) {
+    try {
+        const securities = await ProductModel.getSecurities() 
+
+        res.writeHead(200, {'Content-Type': 'application/json'})
+        res.end(JSON.stringify(securities))
+    }catch(error) {
+        console.log(error)
+    }
+}
+
+// @desc  Gets shopping
+// @route GET api/shopping
+async function getShopping(req, res) {
+    try {
+        const shopping = await ProductModel.getShopping() 
+
+        res.writeHead(200, {'Content-Type': 'application/json'})
+        res.end(JSON.stringify(shopping))
+    }catch(error) {
+        console.log(error)
+    }
+}
+
+// @desc  Gets centers
+// @route GET api/centers
+async function getCenters(req, res) {
+    try {
+        const centers = await ProductModel.getCenters() 
+        res.writeHead(200, {'Content-Type': 'application/json'})
+        res.end(JSON.stringify(centers))
+    }catch(error) {
+        console.log(error)
+    }
+}
+
+
+
+
 
 
 // To make it visible for use out there
 module.exports = {
-    getProducts,
-    getProduct,
-    createProduct,
-    updateProduct,
-    deleteProduct
+    getBanks,
+    getCenters,
+    getHospitals,
+    getHotels,
+    getPharmacies,
+    getProfessions,
+    getFood,
+    getSchools,
+    getSecurities,
+    getShopping
 }

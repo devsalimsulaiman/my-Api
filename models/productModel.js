@@ -1,53 +1,105 @@
-let products = require('../data/products')
-const { v4: uuidv4 } = require('uuid')
-const { writeDataToFile } = require('../utils')
+let banks = require('../data/banks');
+let centers = require('../data/centers');
+let hospitals = require('../data/hospitals');
+let hotels = require('../data/hotels');
+let pharmacies = require('../data/pharmacies');
+let professions = require('../data/professions');
+let food = require('../data/food');
+let schools = require('../data/schools');
+let securities = require('../data/security');
+let shopping = require('../data/shopping');
 
-function findAll() {
+/*
+// get trends
+function getTrends() {
     return new Promise((resolve, reject) => {
         resolve(products)
     })
 }
 
-function findById(id) {
+*/
+
+// get banks
+function getBanks() {
     return new Promise((resolve, reject) => {
-        const product = products.find((p) => p.id === id)
-        resolve(product)
+        resolve(banks)
     })
 }
 
-function create(product) { // we installed npm i uuid    for generating id
+// get hospitals
+function getHospitals() {
     return new Promise((resolve, reject) => {
-        const newProduct = {id: uuidv4(), ...product}
-        products.push(newProduct)
-        writeDataToFile('./data/products.json', products)
-        resolve(newProduct)
-    }) 
+        resolve(hospitals)
+    })
 }
 
-function update(id, product) { // we installed npm i uuid    for generating id
+// get hotels
+function getHotels() {
     return new Promise((resolve, reject) => {
-        const index = products.findIndex((p) => p.id === id)
-        products[index] = {id, ...product}
-        writeDataToFile('./data/products.json', products)
-        resolve(products[index])
-    }) 
+        resolve(hotels)
+    })
 }
 
-function remove(id) { // we installed npm i uuid    for generating id
+// get pharmacies
+function getPharmacies() {
     return new Promise((resolve, reject) => {
-        // change identifier of the import of products to let not const, else you cannot re-write it
-        products = products.filter((p) => p.id !== id)
-        writeDataToFile('./data/products.json', products)
-        resolve()
-    }) 
+        resolve(pharmacies)
+    })
 }
 
+// get professions
+function getProfessions() {
+    return new Promise((resolve, reject) => {
+        resolve(professions)
+    })
+}
+
+// get restaurants
+function getFood() {
+    return new Promise((resolve, reject) => {
+        resolve(food)
+    })
+}
+
+// get schools
+function getSchools() {
+    return new Promise((resolve, reject) => {
+        resolve(schools)
+    })
+}
+
+// get security
+function getSecurities() {
+    return new Promise((resolve, reject) => {
+        resolve(securities)
+    })
+}
+
+// get shopping
+function getShopping() {
+    return new Promise((resolve, reject) => {
+        resolve(shopping)
+    })
+}
+
+// get centers
+function getCenters() {
+    return new Promise((resolve, reject) => {
+        resolve(centers)
+    })
+}
 
 
 module.exports = {
-    findAll,
-    findById,
-    create,
-    update,
-    remove
+    // getTrends,
+    getBanks,
+    getCenters,
+    getHospitals,
+    getHotels,
+    getPharmacies,
+    getProfessions,
+    getFood,
+    getSchools,
+    getSecurities,
+    getShopping
 }

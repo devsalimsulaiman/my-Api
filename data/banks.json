@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "title": "Access Bank",
+        "url": "/access-bank",
+        "avatar": "../assets/logo/access.jpg"
+    },   
+    {
+        "id": 2,
+        "title": "Diamond Bank",
+        "url": "/diamond-bank",
+        "avatar": "../assets/logo/diamond.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Eco Bank",
+        "url": "/eco-bank",
+        "avatar": "../assets/logo/eco.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Fidelity Bank",
+        "url": "/fidelity-bank",
+        "avatar": "../assets/logo/fidelity.jpg"
+    },
+    {
+        "id": 5,
+        "title": "First Bank",
+        "url": "/first-bank",
+        "avatar": "../assets/logo/first.jpg"
+    },
+    {
+        "id": 6,
+        "title": "First City Monument Bank",
+        "url": "/first-city-monument-bank",
+        "avatar": "../assets/logo/fcmb.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Guarateed Trust Bank",
+        "url": "/guaranteed-trust-bank",
+        "avatar": "../assets/logo/gtb.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Heritage Bank",
+        "url": "/heritage-bank",
+        "avatar": "../assets/logo/heritage.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Keystone Bank",
+        "url": "/keystone-bank",
+        "avatar": "../assets/logo/keystone.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Polaris Bank",
+        "url": "/polaris-bank",
+        "avatar": "../assets/logo/polaris.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Stanbic IBTC Bank",
+        "url": "/stanbic-bank",
+        "avatar": "../assets/logo/stanbic.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Sterling Bank",
+        "url": "/sterling-bank",
+        "avatar": "../assets/logo/sterling.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Union Bank",
+        "url": "/union-bank",
+        "avatar": "../assets/logo/union.jpg"
+    },
+    {
+        "id": 14,
+        "title": "United Bank of Africa",
+        "url": "/united-bank-of-africa",
+        "avatar": "../assets/logo/uba.jpg"
+    },
+    {
+        "id": 15,
+        "title": "Unity Bank",
+        "url": "/unity-bank",
+        "avatar": "../assets/logo/unity.jpg"
+    },
+    {
+        "id": 16,
+        "title": "Wema Bank",
+        "url": "/wema-bank",
+        "avatar": "../assets/logo/wema.jpg"
+    },
+    {
+        "id": 17,
+        "title": "Zenith Bank",
+        "url": "/zenith-bank",
+        "avatar": "../assets/logo/zenith.jpg"
+    }
+]
