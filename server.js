@@ -4,6 +4,7 @@ const { getBanks, getCenters, getHotels, getPharmacies, getProfessions, getFood,
 
 
 const server = http.createServer((req, res) => {
+        res.setHeader("Access-Control-Allow-Origin", "*");
     if(req.url === '/api/banks' && req.method === 'GET') {
         getBanks(req, res)
     } else if(req.url === '/api/centers' && req.method === 'GET') {
