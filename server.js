@@ -35,7 +35,7 @@ const server = http.createServer((req, res) => {
     }
     else {
         res.writeHead(404, {'Content-Type': 'application/json'})
-        res.end(JSON.stringify({message: 'Route not found'}))
+        res.end(JSON.stringify({message: 'Route or Path not found'}))
     }
     
 });
