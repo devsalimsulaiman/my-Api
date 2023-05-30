@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Access Bank",
         "url": "/access-bank",
-        "avatar": "https://github.com/devsalimsulaiman/my-Api/blob/main/assets/logo/access.jpg"
+        "avatar": "../assets/logo/access.jpg"
     },   
     {
         "id": 2,
