@@ -1,20 +1,17 @@
 [
     {
-        "id": 1,
+        "id": "profession1",
         "title": "Belamin Blings",
-        "url": "/belamin-blings",
         "avatar": "../assets/logo/belamin-blings.jpg"
     },
     {
-        "id": 2,
+        "id": "profession2",
         "title": "MetroLabx",
-        "url": "/metroLabx",
         "avatar": "../assets/logo/metroLabx.jpg"
     },
     {
-        "id": 3,
+        "id": "profession3",
         "title": "Fams Food",
-        "url": "/fams-food",
         "avatar": "../assets/logo/fams-food.jpg"
     }
 ]
