@@ -1,74 +1,62 @@
 [
     {
-        "id": 1,
+        "id": "education1",
         "title": "College of Education",
-        "url": "/college-of-education",
         "avatar": "../assets/logo/college-of-education.jpg"
     },
     {
-        "id": 2,
+        "id": "education2",
         "title": "Day Secondary School",
-        "url": "/day-secondary-school",
         "avatar": "../assets/logo/day-secondary-school.jpg"
     },
     {
-        "id": 3,
+        "id": "education3",
         "title": "Federal University of Technology 1",
-        "url": "/federal-university-of-technology-1",
         "avatar": "../assets/logo/federal-university-of-technology.jpg"
     },
     {
-        "id": 4,
+        "id": "education4",
         "title": "Federal University of Technology 2",
-        "url": "/federal-university-of-technology-2",
         "avatar": "../assets/logo/federal-university-of-technology.jpg"
     },
     {
-        "id": 5,
+        "id": "education5",
         "title": "Justice Fati Law",
-        "url": "/justice-fati-law",
         "avatar": "../assets/logo/justice-fati-law.jpg"
     },
     {
-        "id": 6,
+        "id": "education6",
         "title": "federal Government College Staff",
-        "url": "/federal-government-college-staff",
         "avatar": "../assets/logo/federal-government-college-staff.jpg"
     },
     {
-        "id": 7,
+        "id": "education7",
         "title": "Federal Government College 1",
-        "url": "/federal-government-college-1",
         "avatar": "../assets/logo/federal-government-college-1.jpg"
     },
     {
-        "id": 8,
+        "id": "education8",
         "title": "Federal Government College 2",
-        "url": "/federal-government-college-2",
         "avatar": "../assets/logo/federal-government-college-2.jpg"
     },
     {
-        "id": 9,
+        "id": "education9",
         "title": "Galaxy International School",
-        "url": "/galaxy-international-school",
         "avatar": "../assets/logo/galaxy-international-school.jpg"
     },
     {
-        "id": 10,
+        "id": "education10",
         "title": "Government Girls Day Bosso",
-        "url": "/government-girls-day-bosso",
         "avatar": "../assets/logo/government-girls-day-bosso.jpg"
     },
     {
-        "id": 11,
+        "id": "education11",
         "title": "Hilltop Model School",
-        "url": "/hilltop-model-school",
         "avatar": "../assets/logo/hilltop-model-school.jpg"
     },
     {
-        "id": 12,
+        "id": "education13",
         "title": "NUT Endwell Model School",
-        "url": "/NUT-endwell-model-school",
         "avatar": "../assets/logo/NUT-endwell-model-school.jpg"
     }
 ]
