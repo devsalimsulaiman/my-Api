@@ -1,84 +1,84 @@
 [
     {
-        "id": 1,
+        "id": "center1",
         "title": "Public Library Minna",
         "url": "/public-library",
         "avatar": "../assets/logo/public-library.jpg"
     },
     {
-        "id": 2,
+        "id": "center2",
         "title": "Arts Gallery Minna",
         "url": "/arts-gallery",
         "avatar": "../assets/logo/arts-gallery.jpg"
     },
     {
-        "id": 3,
+        "id": "center3,
         "title": "JAMB Office",
         "url": "/jamb-office",
         "avatar": "../assets/logo/jamb-office.jpg"
     },
     {
-        "id": 4,
+        "id": "center4",
         "title": "Water Board",
         "url": "/water-board",
         "avatar": "../assets/logo/water-board.jpg"
     },
     {
-        "id": 5,
+        "id": "center5",
         "title": "INEC Office",
         "url": "/inec-office",
         "avatar": "../assets/logo/INEC.jpg"
     },
     {
-        "id": 6,
+        "id": "center6",
         "title": "AEDC",
         "url": "/aedc",
         "avatar": "../assets/logo/aedc.jpg"
     },
     {
-        "id": 7,
+        "id": "center7",
         "title": "Up Hill Views",
         "url": "/up-hill-views",
         "avatar": "../assets/logo/up-hill.jpg"
     },
     {
-        "id": 8,
+        "id": "center8",
         "title": "Murtala Park",
         "url": "/murtala-Park",
         "avatar": "../assets/logo/murtala-park.jpg"
     },
     {
-        "id": 9,
+        "id": "center9",
         "title": "Democracy Garden",
         "url": "/democracy-garden",
         "avatar": "../assets/logo/democracy-garden.jpg"
     },
     {
-        "id": 10,
+        "id": "center10",
         "title": "Legbo Kutigi Hall",
         "url": "/legbo-kutigi-hall",
         "avatar": "../assets/logo/legbo-kutigi-hall.jpg"
     },
     {
-        "id": 11,
+        "id": "center11",
         "title": "Vagosh",
         "url": "/vagosh",
         "avatar": "../assets/logo/vagosh.jpg"
     },
     {
-        "id": 12,
+        "id": "center12",
         "title": "Athena",
         "url": "/athena",
         "avatar": "../assets/logo/athena.jpg"
     },
     {
-        "id": 13,
+        "id": "center13",
         "title": "NSDC",
         "url": "/nsdc",
         "avatar": "../assets/logo/nsdc.jpg"
     },
     {
-        "id": 14,
+        "id": "center14",
         "title": "Youth Center",
         "url": "/youth-center",
         "avatar": "../assets/logo/youth-center.jpg"
