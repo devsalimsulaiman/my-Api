@@ -1,6 +1,6 @@
 [
     {
-        "id": "bank1",
+        "id": 1,
         "title": "Access Bank",
         "url": "/access-bank",
         "avatar": "../assets/logo/access.jpg"
