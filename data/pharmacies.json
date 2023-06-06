@@ -1,18 +1,18 @@
 [
     {
-        "id": "pharmacy1",
+        "id": 90,
         "title": "Nauzo Pharmacy",
         "url": "/nauzo-pharmacy",
         "avatar": "../assets/logo/nauzo-pharmacy.jpg"
     },
     {
-        "id": "pharmacy2",
+        "id": 91,
         "title": "Shebab Pharmacy",
         "url": "/shebab-pharmacy",
         "avatar": "../assets/logo/shebab-pharmacy.jpg"
     },
     {
-        "id": "pharmacy3",
+        "id": 92,
         "title": "Zagbayi Pharmacy",
         "url": "/zagbayi-pharmacy",
         "avatar": "../assets/logo/zagbayi-pharmacy.jpg"
