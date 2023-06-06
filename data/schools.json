@@ -1,61 +1,61 @@
 [
     {
-        "id": "education1",
+        "id": 130,
         "title": "College of Education",
         "avatar": "../assets/logo/college-of-education.jpg"
     },
     {
-        "id": "education2",
+        "id": 131,
         "title": "Day Secondary School",
         "avatar": "../assets/logo/day-secondary-school.jpg"
     },
     {
-        "id": "education3",
+        "id": 132,
         "title": "Federal University of Technology 1",
         "avatar": "../assets/logo/federal-university-of-technology.jpg"
     },
     {
-        "id": "education4",
+        "id": 133,
         "title": "Federal University of Technology 2",
         "avatar": "../assets/logo/federal-university-of-technology.jpg"
     },
     {
-        "id": "education5",
+        "id": 134,
         "title": "Justice Fati Law",
         "avatar": "../assets/logo/justice-fati-law.jpg"
     },
     {
-        "id": "education6",
+        "id": 135,
         "title": "federal Government College Staff",
         "avatar": "../assets/logo/federal-government-college-staff.jpg"
     },
     {
-        "id": "education7",
+        "id": 136,
         "title": "Federal Government College 1",
         "avatar": "../assets/logo/federal-government-college-1.jpg"
     },
     {
-        "id": "education8",
+        "id": 137,
         "title": "Federal Government College 2",
         "avatar": "../assets/logo/federal-government-college-2.jpg"
     },
     {
-        "id": "education9",
+        "id": 138,
         "title": "Galaxy International School",
         "avatar": "../assets/logo/galaxy-international-school.jpg"
     },
     {
-        "id": "education10",
+        "id": 139,
         "title": "Government Girls Day Bosso",
         "avatar": "../assets/logo/government-girls-day-bosso.jpg"
     },
     {
-        "id": "education11",
+        "id": 140,
         "title": "Hilltop Model School",
         "avatar": "../assets/logo/hilltop-model-school.jpg"
     },
     {
-        "id": "education13",
+        "id": 141,
         "title": "NUT Endwell Model School",
         "avatar": "../assets/logo/NUT-endwell-model-school.jpg"
     }
