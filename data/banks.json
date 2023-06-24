@@ -7,7 +7,7 @@
         "opens": "8:00AM - 4:00PM",
         "ATM": "Available",
         "USSD": "*901#",
-        "image": "../assets/logo/access.jpg",
+        "image": "https://github.com/devsalimsulaiman/my-Api/blob/main/assets/logo/access_bg.jpg",
         "services" : "Traditional Investments and Products, Lending Solutions, E-Banking/Online Services, Premium Cards (Credit and Debit)• Black Card & Platinum Credit Card.",
         "Account": "DiamondXtra Account, Premier Savings Account, Individual Current Account, Diamond School Advantage.",
         "phone": "027120057",
