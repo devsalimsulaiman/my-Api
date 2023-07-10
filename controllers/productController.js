@@ -131,6 +131,18 @@ async function getCenters(req, res) {
 }
 
 
+// @desc  Gets gas
+// @route GET api/gas
+async function getGas(req, res) {
+    try {
+        const gas = await ProductModel.getGas() 
+        res.writeHead(200, {'Content-Type': 'application/json'})
+        res.end(JSON.stringify(gas))
+    }catch(error) {
+        console.log(error)
+    }
+}
+
 
 
 
@@ -146,5 +158,6 @@ module.exports = {
     getFood,
     getSchools,
     getSecurities,
-    getShopping
+    getShopping,
+    getGas
 }
