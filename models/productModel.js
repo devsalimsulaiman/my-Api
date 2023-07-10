@@ -3,11 +3,12 @@ let centers = require('../data/centers');
 let hospitals = require('../data/hospitals');
 let hotels = require('../data/hotels');
 let pharmacies = require('../data/pharmacies');
-let professions = require('../data/professions');
+// let professions = require('../data/professions');
 let food = require('../data/food');
 let schools = require('../data/schools');
 let securities = require('../data/security');
 let shopping = require('../data/shopping');
+let gas = require('../data/gas.json');
 
 /*
 // get trends
@@ -48,11 +49,11 @@ function getPharmacies() {
 }
 
 // get professions
-function getProfessions() {
-    return new Promise((resolve, reject) => {
-        resolve(professions)
-    })
-}
+// function getProfessions() {
+//     return new Promise((resolve, reject) => {
+//         resolve(professions)
+//     })
+// }
 
 // get restaurants
 function getFood() {
@@ -89,6 +90,13 @@ function getCenters() {
     })
 }
 
+// get gas
+function getGas() {
+    return new Promise((resolve, reject) => {
+        resolve(gas)
+    })
+}
+
 
 module.exports = {
     // getTrends,
@@ -97,9 +105,10 @@ module.exports = {
     getHospitals,
     getHotels,
     getPharmacies,
-    getProfessions,
+    // getProfessions,
     getFood,
     getSchools,
     getSecurities,
-    getShopping
+    getShopping,
+    getGas
 }
