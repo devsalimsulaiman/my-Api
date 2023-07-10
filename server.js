@@ -1,10 +1,11 @@
 const http = require('http');
-const { getBanks, getCenters, getHotels, getPharmacies, getProfessions, getFood, getHospitals, getSchools, getSecurities, getShopping } = require('./controllers/productController');
+const { getBanks, getCenters, getHotels, getPharmacies, getProfessions, getFood, getHospitals, getSchools, getSecurities, getShopping, getGas } = require('./controllers/productController');
 
 
 
 const server = http.createServer((req, res) => {
-        res.setHeader("Access-Control-Allow-Origin", "*");
+    res.setHeader("Access-Control-Allow-Origin", "*"); 
+    // the line above helps you deal with CORS issue
     if(req.url === '/api/banks' && req.method === 'GET') {
         getBanks(req, res)
     } else if(req.url === '/api/centers' && req.method === 'GET') {
@@ -33,9 +34,12 @@ const server = http.createServer((req, res) => {
     else if(req.url === '/api/shopping' && req.method === 'GET') {
         getShopping(req, res)
     }
+    else if(req.url === '/api/gas' && req.method === 'GET') {
+        getGas(req, res)
+    }
     else {
         res.writeHead(404, {'Content-Type': 'application/json'})
-        res.end(JSON.stringify({message: 'Route or Path not found'}))
+        res.end(JSON.stringify({message: 'Route not found'}))
     }
     
 });
