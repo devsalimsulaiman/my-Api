@@ -1,19 +1,19 @@
 [
     {
-        "id": 30,
+        "id": 1,
         "title": "General Hospital",
         "url": "/general-hospital",
         "avatar": "../assets/logo/general-hospital.jpg",
         "about": "it is a great hospital for patients around, carries ENT, A&E, OR."
     },
     {
-        "id": 31,
+        "id": 2,
         "title": "IBB Hospital",
         "url": "/ibb-hospital",
         "avatar": "../assets/logo/ibb-hospital.jpg"
     },
     {
-        "id": 32,
+        "id": 3,
         "title": "Peace Specialist",
         "url": "/peace-specialist",
         "avatar": "../assets/logo/peace-specialist.jpg"
